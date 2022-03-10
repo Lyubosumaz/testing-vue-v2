@@ -1,6 +1,6 @@
-interface IClusteredLinks {
+export interface ILink {
   href: string;
   text: string;
 }
 
-export type ClusteredLinksType = IClusteredLinks[];
+export type ClusteredLinksType = ILink[];

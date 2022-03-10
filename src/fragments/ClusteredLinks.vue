@@ -3,9 +3,7 @@
     <h3>{{ linksGroupTitle }}</h3>
     <ul>
       <li v-for="(link, index) in groupOfLinks" :key="index">
-        <a v-bind:href="link.href" target="_blank" rel="noopener">{{
-          link.text
-        }}</a>
+        <Link :link="link" />
       </li>
     </ul>
   </div>
@@ -13,11 +11,17 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import Link from "@/fragments/Link.vue";
+import { ClusteredLinksType } from "@/interfaces";
 
-@Component
+@Component({
+  components: {
+    Link,
+  },
+})
 export default class ClusteredLinks extends Vue {
   @Prop() private linksGroupTitle!: string;
-  @Prop() private groupOfLinks!: { href: string; text: string }[];
+  @Prop() private groupOfLinks!: ClusteredLinksType;
 }
 </script>
 

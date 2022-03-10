@@ -20,9 +20,11 @@
 import { Component, Prop, Provide, Vue } from "vue-property-decorator";
 import ClusteredLinks from "@/fragments/ClusteredLinks.vue";
 import Head from "@/fragments/Head.vue";
+
 import InstalledCLIPlugins from "@/mock/InstalledCLIPlugins.json";
 import EssentialLinks from "@/mock/EssentialLinks.json";
 import Ecosystem from "@/mock/Ecosystem.json";
+
 import { ClusteredLinksType } from "@/interfaces";
 
 @Component({
