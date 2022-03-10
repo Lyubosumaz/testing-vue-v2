@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "href": "https://router.vuejs.org",
+      "text": "vue-router"
+    },
+    {
+      "href": "https://vuex.vuejs.org",
+      "text": "vuex"
+    },
+    {
+      "href": "https://github.com/vuejs/vue-devtools#vue-devtools",
+      "text": "vue-devtools"
+    },
+    {
+      "href": "https://vue-loader.vuejs.org",
+      "text": "vue-loader"
+    },
+    {
+      "href": "https://github.com/vuejs/awesome-vue",
+      "text": "awesome-vue"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel",
+      "text": "babel"
+    },
+    {
+      "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router",
+      "text": "router"
+    },
+    {
+      "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex",
+      "text": "vuex"
+    },
+    {
+      "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint",
+      "text": "eslint"
+    },
+    {
+      "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest",
+      "text": "unit-jest"
+    },
+    {
+      "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript",
+      "text": "typescript"
+    }
+  ]
+}
