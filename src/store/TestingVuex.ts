@@ -15,7 +15,7 @@ class TestingVuex extends VuexModule {
     this.all = await new Promise((resolve) => {
       setTimeout(() => {
         resolve(["zero", "one", "two", "three"]);
-      }, 5000);
+      }, 2000);
     });
   }
 }
